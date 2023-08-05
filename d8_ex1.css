@@ -1,0 +1,192 @@
+header{
+    background-color: rgba(0, 255, 255, 0.275);
+  }
+.horizontal-list {
+    list-style: none;
+    height: 50px;
+    color: aliceblue;
+    padding-left: 600px;
+    padding-top: 20px;
+    font-size: larger;
+    margin: 0;
+  }
+  .horizontal-list li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Optional spacing between items */
+    margin-top: ; 
+  }
+  .parent{
+    background-image: url(AdobeStock.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 30px;
+    width: 100%;
+    height: 600px;
+}
+.child_1{
+    padding-top: 80px;
+    padding-left: 60%;
+}
+.child_2{ 
+    background-color: rgba(14, 230, 46, 0.585);
+    margin-top: 23%;
+    margin-left: 3%;
+    width: 70%;
+    height: 150px;    
+}
+.child_3{
+    position: absolute;
+    background-image: url(Yasser.jpg);
+    background-size: cover;
+    left: 80.5%;
+    top: 130px;
+    width: 280px;
+    height: 350px;
+}
+.child_4{
+    background-color: rgba(0, 229, 250, 0.425);
+    position: absolute;
+    left: 10%;
+    top: 550px;
+    width: 25%;
+    height: 150px;
+}
+.child_5{
+    background-color: rgba(0, 229, 250, 0.425);
+    position: absolute;
+    left: 40%;
+    top: 550px;
+    width: 25%;
+    height: 150px;
+}
+.child_6{
+    background-color: rgba(0, 229, 250, 0.425);
+    position: absolute;
+    left: 70%;
+    top: 550px;
+    width: 25%;
+    height: 150px;
+}
+.grid-container {
+    display: grid;
+    width: 1180px;
+    height: 2000px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows:repeat(6, 1fr) ;
+    grid-gap: 2%;
+    margin-top: 110px;
+    margin-left: 15%;
+  }
+.grid-item-1 {
+    grid-column: 1/7;
+    grid-row: 1/3;
+    background-image: url(YASSER-\ Alternative\ CV.png);
+    background-size: cover;
+    border-radius: 10px;
+    height: 750px;
+    width: 1300px;
+ }
+ .grid-item-2 {
+    grid-column: 1/3;
+    grid-row: 3/4;
+    background-image: url(EC-2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    height: 600px;
+    width: 700px;
+ }
+ .grid-item-3 {
+    grid-column: 3/7;
+    grid-row: 3/4;
+    background-color: rgba(255, 255, 0, 0.611);
+    background-size: contain;
+    border-radius: 10px;
+    height: 600px;
+ }
+ .grid-item-4 {
+    grid-column: 1/5;
+    grid-row: 4/5;
+    height: 300px;
+    background-color: rgba(0, 8, 255, 0.641);
+    background-size: cover;
+    border-radius: 10px;
+    color: beige;
+ }
+ h6{
+    padding-top: 5px;
+    padding-left: 10px;
+    color: white;
+ }
+ .new_flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+.A{
+    background-color: rgba(80, 233, 233, 0.282);
+    height: 220px;
+    width: 260px;
+    font-size: 15px;
+    color: black;
+}
+.B{
+    background-color: blueviolet;
+    height: 220px;
+    width: 260px;
+    font-size: 15px;
+    color: black;
+}
+.C{
+    background-color: yellowgreen;
+    height: 220px;
+    width: 260px;
+    font-size: 15px;
+    color: black;
+}
+ .grid-item-5 {
+    grid-column: 5/7;
+    grid-row: 4/6;
+    background-image: url(Gastro.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+ }
+ .grid-item-6 {
+    grid-column: 1/3;
+    grid-row: 5/6;
+    background-image: url(6.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    height: 200px;
+ }
+ .grid-item-7 {
+    grid-column: 3/5;
+    grid-row: 5/6;
+    background-image: url(7.jpg);
+    background-size: cover;
+    border-radius: 10px;
+ }
+ .grid-item-8 {
+    grid-column: 1/4;
+    grid-row: 6/7;
+    background-image: url(8.jpg);
+    background-size: cover;
+    border-radius: 10px;
+ }
+ .grid-item-9 {
+    grid-column: 4/7;
+    grid-row: 6/7;
+    background-color: yellowgreen;
+    background-size: contain;
+    border-radius: 10px;
+    height: 1188px;
+ }
+p{
+    justify-content: end;
+}
+body{
+    background-image: url(macro_1.gif);
+    background-size: cover;
+}
+
